@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: dnsutils
-    image: https://hub.docker.com/r/tutum/dnsutils
+    image: tutum/dnsutils
     command:
       - sleep
       - "infinity"
