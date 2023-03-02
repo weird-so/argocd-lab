@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/weird-so/argocd-lab.git
     targetRevision: HEAD
     path: dev
-  destination: 
+  destination:
     server: https://kubernetes.default.svc
     namespace: myapp
 
