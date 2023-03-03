@@ -8,6 +8,8 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
+  externalIPs:
+  - 119.91.35.201
   selector:
     app: nginx
 ---
